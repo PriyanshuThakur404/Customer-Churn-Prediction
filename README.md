@@ -1,61 +1,56 @@
-# Customer Churn Prediction Web Application
+# Customer Churn Prediction Dashboard
 
-This is a web application that predicts customer churn using machine learning. The application uses Flask for the backend, a Random Forest Classifier for predictions, and a simple HTML/CSS frontend.
+A machine learning powered web application that predicts customer churn and provides business insights through an interactive analytics dashboard.
 
 ## Features
 
-- Machine learning model for churn prediction
-- Web interface for inputting customer data
-- Real-time prediction results
-- Probability display for predictions
-- Input validation
-- Responsive design using Bootstrap
+- Customer churn prediction using Machine Learning
+- Interactive analytics dashboard
+- Flask-based web application
+- User-friendly interface
+- Real-time prediction system
 
-## Setup Instructions
+## Tech Stack
 
-1. Create a virtual environment (recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-2. Install the required packages:
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the application:
-```bash
-python app.py
-```
-
-4. Open your web browser and go to `http://localhost:5000`
-
-## Usage
-
-1. Enter the customer's information:
-   - Tenure (in months)
-   - Monthly Charges
-   - Total Charges
-
-2. Click "Predict Churn" to get the prediction
-
-3. The result will show:
-   - Prediction (Churn or Not Churn)
-   - Probability of churn
+- Python
+- Flask
+- HTML
+- CSS
+- JavaScript
+- SQLite
+- Scikit-Learn
 
 ## Project Structure
 
-- `app.py` - Main Flask application
-- `templates/` - HTML templates
-- `model/` - Directory for storing the trained model
-- `requirements.txt` - Project dependencies
+```text
+Customer-Churn-Prediction
+├── model/
+├── templates/
+├── app.py
+├── predictions.db
+├── requirements.txt
+└── README.md
+```
 
-## Note
+## Installation
 
-This application uses a sample dataset for demonstration purposes. In a real-world scenario, you should:
-1. Use a larger, more comprehensive dataset
-2. Perform proper data preprocessing
-3. Implement more sophisticated feature engineering
-4. Use cross-validation for model evaluation
-5. Consider implementing model retraining capabilities 
+```bash
+git clone https://github.com/PriyanshuThakur404/Customer-Churn-Prediction.git
+
+cd Customer-Churn-Prediction
+
+pip install -r requirements.txt
+
+python app.py
+```
+
+## Future Improvements
+
+- AWS Deployment
+- Docker Containerization
+- User Authentication
+- Advanced Analytics Dashboard
+
+## Author
+
+Priyanshu Thakur
