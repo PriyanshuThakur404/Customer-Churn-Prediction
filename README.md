@@ -1,2 +1,1 @@
-# CHUTAN-PRIDICTION
-IT IS USE TO CALCULATE CHURAN PERCENTAGE AND ALSO  "Analytics Dashboard"
+Customer churn prediction and analytics dashboard built using machine learning techniques.
